@@ -58,7 +58,7 @@ public class HelloAlcher extends Script {
         }
         else{
             stop();
-            return -1;
+            return ThreadLocalRandom.current().nextInt(1000,5000);
         }
     }
 
